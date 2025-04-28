@@ -1,12 +1,11 @@
 <?php
 
-function duplicateFunction() {
+function duplicateFunction()
+{
     // Function definition
 }
 
-function duplicateFunction() {
+function duplicateFunction()
+{
     // Function definition
 }
-
-
-?>

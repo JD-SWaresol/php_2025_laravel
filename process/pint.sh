@@ -38,3 +38,8 @@ composer require laravel/pint --dev
 ## Fixs uncommited file (for example if you add a new php file)
 
 ./vendor/bin/pint --dirty
+
+
+## Fixs any files with code style errors but also exit with a non-zero exit code if any errors were fixed
+
+./vendor/bin/pint --repair
