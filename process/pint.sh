@@ -28,3 +28,13 @@ composer require laravel/pint --dev
 ## Inspect Specifict Code Style Issue
 
 ./vendor/bin/pint --test 'file_name.php'
+
+
+## Show how many php files from a branch that was fixed in its style code
+
+./vendor/bin/pint --diff=main
+
+
+## Fixs uncommited file (for example if you add a new php file)
+
+./vendor/bin/pint --dirty
