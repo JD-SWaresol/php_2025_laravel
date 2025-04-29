@@ -10,12 +10,12 @@ composer require laravel/pint --dev
 ./vendor/bin/pint --version
 
 
-## Fix Code Style Issues from specifict file
+## Fix Code Style Issues from specific file
 
 ./vendor/bin/pint 'file_name.php'
 
 
-## Fix Code Style Issues from specifict folder
+## Fix Code Style Issues from specific folder
 
 ./vendor/bin/pint 'folder_name'
 
@@ -25,7 +25,7 @@ composer require laravel/pint --dev
 ./vendor/bin/pint --test
 
 
-## Inspect Specifict Code Style Issue
+## Inspect specific Code Style Issue
 
 ./vendor/bin/pint --test 'file_name.php'
 
@@ -43,3 +43,14 @@ composer require laravel/pint --dev
 ## Fixs any files with code style errors but also exit with a non-zero exit code if any errors were fixed
 
 ./vendor/bin/pint --repair
+
+
+### We can configure a pint.json to specify a present (file with specific code style rules). Example:
+## This file can be created inside the project's root directory:
+{
+    "present": "laravel"
+}
+
+## If you want to use 'pint.json' from a specific directory, we need the '--config' option when invoke Pint:
+
+./vendor/bin/pint --config vendor/my-company/coding-style/pint.json
