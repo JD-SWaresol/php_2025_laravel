@@ -83,3 +83,16 @@ composer require laravel/pint --dev
 
     ],
 }
+
+
+## We can exclude all file with a specific pattern inside our project using the pint.json file, example:
+
+{
+
+    "notName": [
+
+        "*-my-file.php"
+
+    ]
+
+}
