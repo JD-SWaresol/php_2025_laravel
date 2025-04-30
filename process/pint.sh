@@ -96,3 +96,12 @@ composer require laravel/pint --dev
     ]
 
 }
+
+
+## Exclude an specific file inside out project using the pint.json file, example:
+
+{
+    "notPath": [
+        "path/to/excluded-file.php"
+    ]
+}
