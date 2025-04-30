@@ -54,3 +54,32 @@ composer require laravel/pint --dev
 ## If you want to use 'pint.json' from a specific directory, we need the '--config' option when invoke Pint:
 
 ./vendor/bin/pint --config vendor/my-company/coding-style/pint.json
+
+
+## We can set more rules inside our project using the pint.json file, for example:
+
+"rules": {
+
+        "simplified_null_return": true,
+
+        "array_indentation": false,
+
+        "new_with_parentheses": {
+
+            "anonymous_class": true,
+
+            "named_class": true
+
+        }
+    }
+
+
+## We can exclude folders inside our project using the pint.json file, example:
+
+{
+ "exclude": [
+
+        "process/test_exclude_folder"
+
+    ],
+}
