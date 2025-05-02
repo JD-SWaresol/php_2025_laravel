@@ -1,1 +1,3 @@
-<?php echo "Warning error"'; ?>
+<?php 
+echo 'Warning error'; 
+?>
