@@ -1,3 +1,5 @@
 <?php
 
 $obj = new UndefinedClass();
+
+?>
