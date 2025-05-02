@@ -1,5 +1,5 @@
 <?php
 
-echo "My folder is going to be excluded"
+echo 'My folder is going to be excluded'
 
 ?> 
