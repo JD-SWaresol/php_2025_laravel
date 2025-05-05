@@ -3,6 +3,7 @@
 function calculateSubtraction()
 {
     $result = 12 - 1;
+    $result -= 1;
     echo 'The result of subtraction = '.$result;
 }
 
