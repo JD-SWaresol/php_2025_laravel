@@ -15,6 +15,13 @@ return RectorConfig::configure()
         __DIR__.'/routes',
         __DIR__.'/tests',
     ])
+    ->withPreparedSets(
+        codingStyle: true,
+        naming: true,
+        privatization: true,
+        rectorPreset: true,
+        // ...
+    )
     // uncomment to reach your current PHP version
     // ->withPhpSets()
     ->withTypeCoverageLevel(0)
