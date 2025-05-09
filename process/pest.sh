@@ -27,3 +27,8 @@ composer require pestphp/pest-plugin-drift --dev
 ## Drift command -> plugin that will automatically convert your PHPUnit tests to Pest
 
 ./vendor/bin/pest --drift
+
+
+## Drift command to specific folder
+
+./vendor/bin/pest --drift 'folder_path/'
