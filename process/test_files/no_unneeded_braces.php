@@ -6,8 +6,6 @@ namespace Foo {
     switch ($b) {
         case 1:
             break;
-    
+
     }
 }
-
-
