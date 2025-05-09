@@ -1,6 +1,3 @@
 <?php
 
-echo 'This is a new test!!!'
-
-
-?>
+echo 'This is a new test!!!';
