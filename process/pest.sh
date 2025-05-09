@@ -16,3 +16,8 @@ composer require pestphp/pest --dev --with-all-dependencies
 ## Finally, you can run your tests by executing the pest command.
 
 ./vendor/bin/pest
+
+
+## Install Drift Dependency
+
+composer require pestphp/pest-plugin-drift --dev
