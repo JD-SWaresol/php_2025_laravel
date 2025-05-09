@@ -21,3 +21,9 @@ composer require pestphp/pest --dev --with-all-dependencies
 ## Install Drift Dependency
 
 composer require pestphp/pest-plugin-drift --dev
+
+
+
+## Drift command -> plugin that will automatically convert your PHPUnit tests to Pest
+
+./vendor/bin/pest --drift
