@@ -12,6 +12,6 @@ class ExampleTest extends TestCase
      */
     public function personal_test_in_use(): void
     {
-        echo 'This is a new Personal test!!!!'
+        echo 'This is a new Personal test!!!!';
     }
 }
